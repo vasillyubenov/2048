@@ -1,0 +1,121 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    width: 100vw;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.info{
+    width: 25%;
+    height: 100%;
+    background-color: bisque;
+    border: 1px solid rgb(221, 148, 148);
+}
+
+#playground{
+    box-sizing: border-box;
+    height: 65vh;
+    width: 100%;
+    align-self: center;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.rules{
+    box-sizing: border-box;
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 25vh;
+}
+
+.content{
+    box-sizing: border-box;
+    display: none;
+    background-color: rosybrown;
+    width: 480px;
+    height: 480px;
+}
+
+table{
+    width: 100%;
+    height: 100%;
+}
+
+table, tr, td{
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+
+td{
+    width: 110px;
+    height: 110px;
+    text-align: center;
+    font-size: 24px;
+}
+
+#start{
+    align-self: center;
+    font-size: 40px;
+    width: 140px;
+    height: 50px;
+    background-color: coral;
+    text-align: center;
+    border-radius: 4px;
+}
+
+#start:hover{
+    cursor: pointer;
+    background-color: rgb(252, 153, 117);
+}
+
+.footer{
+    box-sizing: border-box;
+    display: flex;
+    height: 72px;
+    justify-content: space-between;
+    border-top: 1px solid cornflowerblue;
+    align-items: flex-start;
+    background-color: rgb(139, 118, 0);
+}
+
+.git{
+    text-align: center;
+}
+
+#socials{
+    text-align: center;
+}
+
+#use-keys{
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex; 
+    justify-content: center; 
+    flex-wrap: wrap;
+}
+
+#keys{
+    text-align: center;
+    font-size: 24px;
+    width: 100%;
+    display: block;
+}
+
+ul{
+    list-style-position: inside;
+}
+
+#rules-merging{
+    font-size: 18px;
+}
+
+#keys-img, #movement-img{
+    height: 150px;
+}

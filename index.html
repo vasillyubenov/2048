@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2048</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="rules">
+            <div id="rules-merging" class="info">
+                <p>Two cubes will only merge if:</p>
+                <ul>
+                    <li>One of them has not already merged!</li>
+                    <li>They have the same value inside of them</li>
+                </ul>
+            </div>
+            <div id="use-keys" class="info">
+                <h1 id="keys">Use the keys!</h1><br>
+                <img src="assets/img/keys.png" alt="keys" id="keys-img"></img>
+            </div>
+            <div id="how-it-works" class="info">
+                <p>Movement:</p>
+                    <p>I a cube moves from its postion to the last one available in the directiopn pressed</li>
+                    They have the same value inside of them, or merges with the one if possible!</p>
+               
+            </div>
+        </div>
+
+        <div id="playground">
+            <div id="start">START</div>
+            <div class="content">
+                <table>
+                    <tr>
+                        <td id="11"></td>
+                        <td id="12"></td>
+                        <td id="13"></td>
+                        <td id="14"></td>
+                    </tr>
+                    <tr>
+                        <td id="21"></td>
+                        <td id="22"></td>
+                        <td id="23"></td>
+                        <td id="24"></td>
+                    </tr>
+                    <tr>
+                        <td id="31"></td>
+                        <td id="32"></td>
+                        <td id="33"></td>
+                        <td id="34"></td>
+                    </tr>
+                    <tr>
+                        <td id="41"></td>
+                        <td id="42"></td>
+                        <td id="43"></td>
+                        <td id="44"></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="footer">
+            <span id="copyr">&copy; All copyrights reserved</span>
+            <div id="socials">My social media: <br/> 
+                <a href="https://www.instagram.com/vasillyubenov/">Instagram</a><br/>
+                <a href="https://www.facebook.com/vasil.ivailov.5">Facebook</a>
+            </div>
+            <div class="git">My github account:<br/>
+                <a href="https://github.com/vasillyubenov" id="github">GitHub</a>
+            </div>
+        </div>
+    </div>
+    <script src="project2048.js"></script>
+</body>
+</html>
